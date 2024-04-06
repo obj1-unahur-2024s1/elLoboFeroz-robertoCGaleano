@@ -2,10 +2,16 @@
 object loboFeroz {
 	var peso= 10
 	
-	method pesoLobo(){
+	method peso(){
 		return peso
 	}
-	method estaSaludable() {
+	method saludable() {
 		return peso.between (20,150)
+	}
+	method pesoNuevo(numero) {
+		peso= numero
+	}
+	method crisis() {
+		peso= 10
 	}
 }
