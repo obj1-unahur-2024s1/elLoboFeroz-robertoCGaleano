@@ -1,6 +1,11 @@
 /** First Wollok example */
-object wollok {
-	method howAreYou() {
-		return 'I am Wolloktastic!'
+object loboFeroz {
+	var peso= 10
+	
+	method pesoLobo(){
+		return peso
+	}
+	method estaSaludable() {
+		return peso.between (20,150)
 	}
 }
